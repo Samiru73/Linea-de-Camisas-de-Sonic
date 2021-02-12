@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding-top: 70px;
+    background: rgba(1, 1, 77, 0.781);
+    padding-bottom: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 3px;
+}
+
+header img {
+    height: 120px;
+    border-radius: 45px;
+    padding-bottom: 4px;
+}
+
+section {
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    background: rgb(231, 231, 235);
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+img {
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+.Precio {
+    padding-top: 10px;
+    padding-bottom: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Nombre {
+    font-family: 'Open Sans', sans-serif;
+}
+.linea1 {
+    float: left;
+    overflow: hidden;
+}
+
+body {
+    text-align: center;
+}
+
+.linea2 {
+    overflow: hidden;
+    float: left;
+}
+
+a {
+    color: black;
+}
+
+footer {
+    margin-top: 65%;
+    padding: 50px;
+    background: black;
+    color: white;
+    width: 83%;
+    text-align: center;
+    margin-left: 7%;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+section:hover {
+      background: rgb(168, 168, 168);
+      animation-delay: 13ms;
+}
